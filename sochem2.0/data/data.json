@@ -32,6 +32,16 @@
       "id": 5,
       "title": "Family",
       "href": "/family"
+    },
+    {
+      "id": 5,
+      "title": "Forum",
+      "href": "/forum"
+    },
+    {
+      "id": 5,
+      "title": "Cloud",
+      "href": "/cloud"
     }
   ],
   "eventsCard": [
