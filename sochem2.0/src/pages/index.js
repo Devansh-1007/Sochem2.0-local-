@@ -1,12 +1,9 @@
-import Navbar from "../components/navbar";
-
+// import Navbar from "../components/navbar";
+import Home_page from "../pages/home"
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <div className='bg-red-500 text-4xl'>
-        Hello! This is Sochem
-      </div>
+      <Home_page/>
     </>
   )
 }

@@ -1,10 +1,56 @@
 {
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sahil Saini",
+      "designation": "Batch Of 2024",
+      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+    },
+    {
+      "id": 2,
+      "name": "Devansh Mishra",
+      "designation": "Batch Of 2024",
+      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+    },
+    {
+      "id": 3,
+      "name": "Aditya Kumar Singh",
+      "designation": "Batch Of 2024",
+      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+    },
+    {
+      "id": 4,
+      "name": "Akshun Mishra",
+      "designation": "Batch Of 2025",
+      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+    },
+    {
+      "id": 5,
+      "name": "Devansh Choudhary",
+      "designation": "Batch Of 2025",
+      "review": "“I feel SoChem is what that knits this huge department of ours together. At SoChem, we came together, had fun, learned, and grew”"
+    }
+  ],
   "eventsCarousel": [
     {
       "url": "/images/3.jpg"
     },
     {
       "url": "/images/2.jpg"
+    }
+  ],
+  "familyCarousel": [
+    {
+      "url": "/images/img-20220731-185354-1@2x.png"
+    },
+    {
+      "url": "/images/3.jpg"
+    }
+
+  ],
+  "fundsCarousel": [
+    {
+      "url": "/images/fund.png"
     }
   ],
   "navbarElements": [
