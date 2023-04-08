@@ -46,7 +46,6 @@
     {
       "url": "/images/3.jpg"
     }
-
   ],
   "fundsCarousel": [
     {
@@ -80,12 +79,12 @@
       "href": "/family"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Forum",
       "href": "/forum"
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "Cloud",
       "href": "/cloud"
     }
@@ -103,27 +102,27 @@
     },
     {
       "id": 3,
-      "title": "Osmoze",
+      "title": "Deepovan",
       "description": "lorem ipsum"
     },
     {
       "id": 4,
-      "title": "Osmoze",
+      "title": "Random",
       "description": "lorem ipsum"
     },
     {
       "id": 5,
-      "title": "Festivals",
+      "title": "Kashiyatra",
       "description": "lorem ipsum"
     },
     {
       "id": 6,
-      "title": "Osmoze",
+      "title": "Technex",
       "description": "lorem ipsum"
     },
     {
       "id": 7,
-      "title": "Osmoze",
+      "title": "Jagriti",
       "description": "lorem ipsum"
     },
     {
