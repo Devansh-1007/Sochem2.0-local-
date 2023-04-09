@@ -102,37 +102,12 @@
     },
     {
       "id": 3,
-      "title": "Deepovan",
+      "title": "Workshops & Competitions",
       "description": "lorem ipsum"
     },
     {
       "id": 4,
-      "title": "Random",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 5,
-      "title": "Kashiyatra",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 6,
-      "title": "Technex",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 7,
-      "title": "Jagriti",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 8,
-      "title": "Osmoze",
-      "description": "lorem ipsum"
-    },
-    {
-      "id": 9,
-      "title": "Osmoze",
+      "title": "Others",
       "description": "lorem ipsum"
     }
   ]
