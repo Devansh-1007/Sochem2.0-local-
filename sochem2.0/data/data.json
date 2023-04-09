@@ -46,7 +46,6 @@
     {
       "url": "/images/3.jpg"
     }
-
   ],
   "fundsCarousel": [
     {
@@ -78,6 +77,16 @@
       "id": 5,
       "title": "Family",
       "href": "/family"
+    },
+    {
+      "id": 6,
+      "title": "Forum",
+      "href": "/forum"
+    },
+    {
+      "id": 7,
+      "title": "Cloud",
+      "href": "/cloud"
     }
   ],
   "eventsCard": [

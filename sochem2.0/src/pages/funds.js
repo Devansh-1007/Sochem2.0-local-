@@ -1,7 +1,6 @@
 import Titlebar from "@/components/title";
-import { SectionTitle } from "@/components/section";
 import Navbar from "@/components/navbar";
-import FundsCarousel from '../components/fundsCarousel'
+// import FundsCarousel from '../components/fundsCarousel'
 
 export default function Funds() {
     return (
@@ -9,7 +8,7 @@ export default function Funds() {
             <Navbar/>
              <div className='bg-[#040D21] w-full '>
                 <p className='font-medium flex text-[#F7FAFF] justify-center text-2xl sm:text-3xl lg:text-5xl'><p className='mt-20'>The<span className='text-[#2A6BFF]'> Grand</span> Alumni!</p></p>
-            <FundsCarousel /> 
+            {/* <FundsCarousel />  */}
             </div>
             <div class="bg-slate-100 py-10">
             <form class="mx-20 my-10 bg-white rounded-2xl flex flex-col md:flex-row">
