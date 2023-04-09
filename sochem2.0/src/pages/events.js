@@ -3,10 +3,10 @@ import EventsCarousel from "../components/eventsCarousel";
 import Navbar from "@/components/navbar";
 import EventsCard from "@/components/eventsCard";
 import data from "../../data/data.json";
+import Footer from "@/components/footer";
 
 export default function events() {
   const [searchInput, setSearchInput] = useState("");
-  const [title, setTitle] = useState("");
   const filteredData = data.eventsCard.filter((e) => {
     if (searchInput === "") {
       return e;
@@ -14,7 +14,7 @@ export default function events() {
       return e.title.toLowerCase().includes(searchInput);
     }
   });
-  console.log(searchInput);
+  // console.log(searchInput);
   return (
     <div>
       <Navbar />
@@ -41,6 +41,7 @@ export default function events() {
           <EventsCard key={i.id} title={i.title} description={i.description} />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
