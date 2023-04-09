@@ -33,10 +33,10 @@
   ],
   "eventsCarousel": [
     {
-      "url": "/images/3.jpg"
+      "url": "/images/Photo1.png"
     },
     {
-      "url": "/images/2.jpg"
+      "url": "/images/Photo2.png"
     }
   ],
   "familyCarousel": [
@@ -84,22 +84,26 @@
     {
       "id": 1,
       "title": "Osmoze",
-      "description": "lorem ipsum"
+      "description": "lorem ipsum" ,
+      "url": "/images/Rectangle_1.png"
     },
     {
       "id": 2,
       "title": "Festivals",
-      "description": "lorem ipsum"
+      "description": "lorem ipsum",
+      "url": "/images/Rectangle_2.png"
     },
     {
       "id": 3,
       "title": "Workshops & Competitions",
-      "description": "lorem ipsum"
+      "description": "lorem ipsum",
+      "url": "/images/Rectangle_3.png"
     },
     {
       "id": 4,
       "title": "Others",
-      "description": "lorem ipsum"
+      "description": "lorem ipsum",
+      "url": "/images/rectangle_4.png"
     }
   ]
 }
