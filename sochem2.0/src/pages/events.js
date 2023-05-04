@@ -36,7 +36,7 @@ export default function events() {
           ></input>
         </div>
       </div>
-      <div className="grid-cols-1 sm:grid-cols-2 grid m-auto justify-center lg:grid-cols-2 p-4 gap-4 auto-cols-max ">
+      <div className=" m-auto grid-cols-1 sm:grid-cols-2 grid m-auto justify-center lg:grid-cols-2 p-4 gap-4 auto-cols-max ">
         {filteredData.map((i) => (
           <EventsCard key={i.id} title={i.title} description={i.description} />
         ))}
