@@ -5,6 +5,8 @@ import EventsCard from "@/components/eventsCard";
 import data from "../../data/data.json";
 import Footer from "@/components/footer";
 
+
+
 export default function events() {
   const [searchInput, setSearchInput] = useState("");
   const filteredData = data.eventsCard.filter((e) => {
@@ -27,18 +29,25 @@ export default function events() {
         </span>
         <EventsCarousel />
       </div>
-      <div>
-        <div className="  p-4  ">
+      <div className="m-auto justify-center">
+        <div className="mb-3 p-8 rounded-lg">
           <input
-            className="lg:w-full border-4 rounded-sm border-gray-100"
+            type="search"
+            className="relative m-0 block w-full min-w-0 flex-auto rounded border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
+            id="exampleSearch"
             placeholder="Search for Events"
             onChange={(e) => setSearchInput(e.target.value.toLowerCase())}
-          ></input>
+          />
         </div>
       </div>
-      <div className=" m-auto grid-cols-1 sm:grid-cols-2 grid m-auto justify-center lg:grid-cols-2 p-4 gap-4 auto-cols-max ">
+      <div className=" m-auto grid-cols-1 sm:grid-cols-2 grid justify-center lg:grid-cols-2 p-12 gap-12 auto-cols-max ">
         {filteredData.map((i) => (
-          <EventsCard key={i.id} title={i.title} description={i.description} />
+          <EventsCard
+            key={i.id}
+            title={i.title}
+            description={i.description}
+            url={i.url}
+          />
         ))}
       </div>
       <Footer />

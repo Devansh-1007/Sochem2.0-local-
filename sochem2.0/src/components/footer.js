@@ -56,22 +56,22 @@ const footer = () => {
               <div className="mt-[0.25rem]  flex-wrap space-y-3 space-x-0 md:flex justify-between md:space-x-3 font-custom text-[1rem] sm:text-[1.125rem] 2xl:text-lg font-medium">
                 <div className="flex ">
                   <Link href="/home">
-                    <button className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200">
+                    <button className="text-[#0569FF] p-2 transition hover:opacity-75 dark:text-gray-200">
                       Become a teacher{" "}
                     </button>
                   </Link>
                   <Link href="">
-                    <button className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200">
+                    <button className="text-[#0569FF] p-2 transition hover:opacity-75 dark:text-gray-200">
                       Blogs
                     </button>
                   </Link>
                   <Link href="/secretariat">
-                    <button className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200">
+                    <button className="text-[#0569FF] p-2 transition hover:opacity-75 dark:text-gray-200">
                       Courses
                     </button>
                   </Link>
                   <Link href="/gallery">
-                    <button className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200">
+                    <button className="text-[#0569FF] p-2 transition hover:opacity-75 dark:text-gray-200">
                       License
                     </button>
                   </Link>
@@ -83,7 +83,7 @@ const footer = () => {
                 </div>
                 <div className="mt-[0.25rem] flex flex-col font-custom text-lg font-medium">
                   <a className="flex" href="mailto:sochem@iitbhu.com">
-                    <p className="text-[#0569FF] transition hover:opacity-75 dark:text-gray-200">
+                    <p className="text-[#0569FF] p-2 transition hover:opacity-75 dark:text-gray-200">
                       sochem@iitbhu.com
                     </p>
                   </a>
@@ -92,7 +92,7 @@ const footer = () => {
             </div>
           </div>
           <div className="flex m-auto pr-24 justify-center">
-            <div class="text-teal-600 dark:text-teal-300">
+            <div className="text-teal-600 m-auto mr-28 dark:text-teal-300">
               <Image
                 src="/images/sochem_logo.svg"
                 width={150}
@@ -101,7 +101,7 @@ const footer = () => {
               />
             </div>
           </div>
-          <div class=" px-4   space-y-8 sm:px-6 lg:space-y-16 lg:px-8 justify-center">
+          <div className=" px-4   space-y-8 sm:px-6 lg:space-y-16 lg:px-8 justify-center">
             <div className="mt-[3.75rem]">
               <div className="font-custom text-[1.5rem] font-bold mt-[3.75rem]">
                 Follow us
@@ -149,7 +149,7 @@ const footer = () => {
         </div>
       </div>
       <div className="flex margin-auto justify-center">
-        <p class="text-lg text-gray-500 dark:text-gray-400">
+        <p className="text-lg text-gray-500 dark:text-gray-400">
           Copyright &copy; 2023. Sochem. All rights reserved.
         </p>
       </div>

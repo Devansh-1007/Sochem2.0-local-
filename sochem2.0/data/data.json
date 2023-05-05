@@ -33,10 +33,10 @@
   ],
   "eventsCarousel": [
     {
-      "url": "/images/3.jpg"
+      "url": "/images/Photo1.png"
     },
     {
-      "url": "/images/2.jpg"
+      "url": "/images/Photo2.png"
     }
   ],
   "familyCarousel": [
@@ -93,22 +93,26 @@
     {
       "id": 1,
       "title": "Osmoze",
-      "description": "lorem ipsum"
+      "description": "The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, ",
+      "url": "/images/Rectangle_1.png"
     },
     {
       "id": 2,
       "title": "Festivals",
-      "description": "lorem ipsum"
+      "description": "The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, ",
+      "url": "/images/Rectangle_2.png"
     },
     {
       "id": 3,
       "title": "Workshops & Competitions",
-      "description": "lorem ipsum"
+      "description": "The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, ",
+      "url": "/images/Rectangle_3.png"
     },
     {
       "id": 4,
       "title": "Others",
-      "description": "lorem ipsum"
+      "description": "The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, ",
+      "url": "/images/Rectangle_4.png"
     }
   ]
 }

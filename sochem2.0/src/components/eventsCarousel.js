@@ -26,7 +26,7 @@ const eventsCarousel = () => {
     };
 
     return (
-        <div className='max-w-[1400px] w-[80%] h-[20rem] sm:h-[400px] lg:h-[740px] sm:w-[80%] lg:w-full m-auto py-16 px-4 relative group'>
+        <div className='max-w-[1400px] w-[80%] h-[20rem] sm:h-[400px] lg:h-[800px] sm:w-[80%] lg:w-full m-auto py-16 px-4 relative group'>
             <div
                 style={{ backgroundImage: `url(${data.eventsCarousel[currentIndex].url})` }}
                 className='border-4 border-[#F7FAFF] w-full h-full rounded-[2rem] bg-center bg-cover duration-500'
